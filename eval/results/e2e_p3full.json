@@ -1,0 +1,1938 @@
+{
+  "label": "p3full",
+  "timestamp": "2026-10-14T22:21:46",
+  "llm": "qwen2.5:7b",
+  "rewrite": true,
+  "summary": {
+    "answerable_n": 58,
+    "unanswerable_n": 8,
+    "answered_rate": 0.8448275862068966,
+    "correct_refusal_rate": 1.0,
+    "citation_valid": 1.0,
+    "citation_recall": 1.0,
+    "fact_checks": 0.9230769230769231,
+    "fact_checks_n": 13,
+    "flagged_rate": 0.061224489795918366,
+    "leaks": 0,
+    "mean_seconds": 10.148550914995598
+  },
+  "rows": [
+    {
+      "id": "g01",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days of annual leave do I get after 6 years of service?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the entitlement for annual leave after 6 years of service according to the company policy handbook?",
+      "answer": "Employees with 5 or more years of service receive 20 days of paid annual leave per calendar year [POL-02 §1.2].",
+      "cited": [
+        "POL-02 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 23.484476804733276
+    },
+    {
+      "id": "g02",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "I have been here 3 years. How many days of annual leave do I have?",
+      "answerable": true,
+      "status": "flagged",
+      "rewritten": "How many days of annual leave entitlement do I accrue after 3 years of service?",
+      "answer": "You have 16 days of paid annual leave per calendar year [POL-02 §1.1].",
+      "cited": [
+        "POL-02 §1.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": false,
+          "problems": [
+            "The answer states that employees with less than 5 years of service receive 16 days of paid annual leave per calendar year, which contradicts the cited clause that specifies 16 days for less than 5 years of service."
+          ]
+        }
+      },
+      "leak": [],
+      "seconds": 15.289124250411987
+    },
+    {
+      "id": "g03",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many unused leave days can I carry forward and when do they expire?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the maximum number of unused leave days that can be carried forward, and what is the expiration policy for such days?",
+      "answer": "You can carry forward up to 5 unused days of annual leave to the next year, and these carried forward days expire on 31 March [POL-02 §1.4].",
+      "cited": [
+        "POL-02 §1.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.617813110351562
+    },
+    {
+      "id": "g04",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How much notice do I need to give for a week of leave?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the required notice period for availing a week of leave?",
+      "answer": "You need to give 14 calendar days notice for a week of leave [POL-02 §2.2].",
+      "cited": [
+        "POL-02 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.116371631622314
+    },
+    {
+      "id": "g05",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many sick leave days do I get if I am not hospitalised?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How many days of medical leave am I entitled to if I am not hospitalized?",
+      "answer": "You receive 18 days of paid sick leave per year when not hospitalised [POL-02 §3.1].",
+      "cited": [
+        "POL-02 §3.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §3.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.639525175094604
+    },
+    {
+      "id": "g06",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Do I need a medical certificate if I am sick for two days?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Do I require a medical certificate for sick leave if I am absent for two days?",
+      "answer": "Yes, a medical certificate from a registered practitioner is required for sick leave of 2 or more consecutive days [POL-02 §3.3].",
+      "cited": [
+        "POL-02 §3.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §3.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.695542097091675
+    },
+    {
+      "id": "g07",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How long is paternity leave?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the duration of parental leave for male employees?",
+      "answer": "Paternity leave is 7 working days and must be taken within 60 days of the birth [POL-02 §4.2].",
+      "cited": [
+        "POL-02 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.140770196914673
+    },
+    {
+      "id": "g08",
+      "type": "silent-explicit",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I take a sabbatical?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Am I eligible to apply for a sabbatical leave?",
+      "answer": "Sabbatical leave is not provided under this policy [POL-02 §5.4].",
+      "cited": [
+        "POL-02 §5.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §5.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.015120267868042
+    },
+    {
+      "id": "g09",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days a week can I work from home?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the maximum number of days per week authorized for work from home?",
+      "answer": "You can work from home up to 2 days per week with manager awareness through the team calendar [POL-03 §2.2].",
+      "cited": [
+        "POL-03 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.621711730957031
+    },
+    {
+      "id": "g10",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days a year can I work from another country?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How many days per year are permitted for work from another country?",
+      "answer": "You can work from outside Malaysia for up to 20 working days per calendar year [POL-03 §3.1].",
+      "cited": [
+        "POL-03 §3.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §3.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.707017421722412
+    },
+    {
+      "id": "g11",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Will I be paid cash for approved overtime?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Will I be compensated with cash for approved overtime hours?",
+      "answer": "No, approved overtime is compensated as time off in lieu, not as cash [POL-03 §1.3].",
+      "cited": [
+        "POL-03 §1.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §1.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.087593793869019
+    },
+    {
+      "id": "g12",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "What are the core working hours?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What are the defined core work hours as per the company policy?",
+      "answer": "Core hours of 10:00 to 16:00 must be worked by everyone [POL-03 §1.2].",
+      "cited": [
+        "POL-03 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.04860234260559
+    },
+    {
+      "id": "g13",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Is there an allowance for setting up a home office?",
+      "answerable": true,
+      "status": "flagged",
+      "rewritten": "Is there a policy allowance for the setup of a home office workspace?",
+      "answer": "No, there is no allowance for setting up a home office. [POL-03 §4.2] provides a one-time home office allowance of RM 500 after confirmation of employment, but this is not related to the setup costs.",
+      "cited": [
+        "POL-03 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": false,
+          "problems": [
+            "The answer incorrectly states that there is no allowance for setting up a home office, when the clause [POL-03 §4.2] actually provides a one-time home office allowance of RM 500 after confirmation of employment."
+          ]
+        }
+      },
+      "leak": [],
+      "seconds": 16.248050451278687
+    },
+    {
+      "id": "g14",
+      "type": "table",
+      "set": "standard",
+      "role": "employee",
+      "question": "Who needs to approve my expense claim of RM 5,000?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Who is required to approve an expense claim exceeding RM 5,000?",
+      "answer": "Your expense claim of RM 5,000 needs to be approved by the department head [POL-04 §2.2].",
+      "cited": [
+        "POL-04 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-04 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.621405839920044
+    },
+    {
+      "id": "g15",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How long do I have to submit an expense claim?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the time limit for submitting an expense claim according to company policy?",
+      "answer": "Claims must be submitted in the expense system within 30 calendar days of the expense date [POL-04 §1.2].",
+      "cited": [
+        "POL-04 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-04 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.103408336639404
+    },
+    {
+      "id": "g16",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I claim the alcohol I bought at a client dinner?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "May I submit a claim for the alcohol purchased during a client dinner?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause allows alcohol reimbursement",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g17",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "What is the mileage rate for using my own car for work?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the reimbursement rate for business use of personal vehicle as specified in the company policy handbook?",
+      "answer": "The mileage rate for using a personal car on approved business trips is RM 0.60 per kilometre [POL-04 §4.2].",
+      "cited": [
+        "POL-04 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-04 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.739959001541138
+    },
+    {
+      "id": "g18",
+      "type": "silent-explicit",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I be reimbursed for paying a vendor in cryptocurrency?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Is reimbursement for payment to a vendor in cryptocurrency permissible under company policy?",
+      "answer": "No, cryptocurrency or any payment made in digital assets is not reimbursable [POL-04 §5.3].",
+      "cited": [
+        "POL-04 §5.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-04 §5.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.239837169647217
+    },
+    {
+      "id": "g19",
+      "type": "conflict",
+      "set": "standard",
+      "role": "employee",
+      "question": "How much meal allowance do I get per day on a domestic business trip?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the daily meal allowance rate during a domestic business trip?",
+      "answer": "Domestic meal allowance during business travel is RM 70 per day [POL-05 §3.2].",
+      "cited": [
+        "POL-05 §3.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-05 §3.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.738004922866821
+    },
+    {
+      "id": "g20",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I fly business class on a 9 hour flight?",
+      "answerable": true,
+      "status": "flagged",
+      "rewritten": "Is it permissible to utilize business class airfare for a 9-hour flight under the company's travel policy?",
+      "answer": "No, business class is not allowed on flights under 6 hours [POL-05 §2.2].",
+      "cited": [
+        "POL-05 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-05 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": false,
+          "problems": [
+            "The answer incorrectly states that business class is not allowed on flights under 6 hours, when the clause only specifies that it is allowed for flights of 6 hours or more for employees at Director level and above."
+          ]
+        }
+      },
+      "leak": [],
+      "seconds": 15.287877798080444
+    },
+    {
+      "id": "g21",
+      "type": "table",
+      "set": "standard",
+      "role": "employee",
+      "question": "What is the hotel cap per night in a Tier 2 city?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the maximum allowable accommodation expense per night in a Tier 2 city?",
+      "answer": "The hotel cap per night in a Tier 2 city is RM 300 [POL-05 §2.3].",
+      "cited": [
+        "POL-05 §2.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-05 §2.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.341613292694092
+    },
+    {
+      "id": "g22",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Who must approve a business trip overseas?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Who must approve a business trip outside the country?",
+      "answer": "All business travel must be approved by the manager before booking [POL-05 §1.1]. Additionally, overseas travel needs department head approval in addition to the manager [POL-05 §1.3].",
+      "cited": [
+        "POL-05 §1.1",
+        "POL-05 §1.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-05 §1.1",
+          "POL-05 §1.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.471919775009155
+    },
+    {
+      "id": "g23",
+      "type": "table",
+      "set": "standard",
+      "role": "employee",
+      "question": "A supplier gave me a gift worth RM 350. What should I do?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What are the procedures for handling gifts from suppliers valued at RM 350 according to company policy?",
+      "answer": "You should declare the gift to Compliance within 7 days [POL-08 §2.2].",
+      "cited": [
+        "POL-08 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-08 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.542035579681396
+    },
+    {
+      "id": "g24",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I keep a RM 600 gift from a client?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "Is it permissible to retain a gift with a value of RM 600 from a client?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Legal and Compliance at compliance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "No clause directly addresses RM 600 gifts.",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": false,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g25",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I give a gift to a government official?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Is it permissible to provide a gift to a government official?",
+      "answer": "Yes, gifts to public officials can be given, but they must be approved in writing by the Head of Compliance [POL-08 §3.2].",
+      "cited": [
+        "POL-08 §3.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-08 §3.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.811155080795288
+    },
+    {
+      "id": "g26",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "What is the minimum password length?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the minimum character count for passwords?",
+      "answer": "Passwords must be at least 14 characters long [POL-06 §1.1].",
+      "cited": [
+        "POL-06 §1.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-06 §1.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.46992039680481
+    },
+    {
+      "id": "g27",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "My laptop was stolen. How fast must I report it?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How quickly must I report the theft of my laptop according to company policy?",
+      "answer": "A lost or stolen device must be reported to IT Security at security@meridianworks.example within 2 hours of discovery [POL-06 §2.4].",
+      "cited": [
+        "POL-06 §2.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-06 §2.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.084770202636719
+    },
+    {
+      "id": "g28",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I paste customer data into a public AI chatbot?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "Is it permissible to input customer data into a public AI chatbot?",
+      "answer": "I could not find this in the company policies available to your role. Please contact IT Security at security@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause directly addresses the use of customer data in public AI chatbots",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g29",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I save work files in my personal Dropbox?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Is it permissible to store work-related files in a personal Dropbox account?",
+      "answer": "No, use of personal cloud storage to store or send company data is prohibited [POL-06 §3.2].",
+      "cited": [
+        "POL-06 §3.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-06 §3.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.837470531463623
+    },
+    {
+      "id": "g30",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How quickly must a personal data breach be reported?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the required timeframe for reporting a personal data breach according to company policy?",
+      "answer": "Any suspected personal data breach must be reported to the Data Protection Officer at dpo@meridianworks.example within 24 hours of discovery [POL-07 §2.1].",
+      "cited": [
+        "POL-07 §2.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-07 §2.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.3721022605896
+    },
+    {
+      "id": "g31",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How long does the company keep employee records after they leave?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the company's policy regarding the retention period for employee records following termination of employment?",
+      "answer": "Employee records are kept for 7 years after the employee leaves [POL-07 §3.2].",
+      "cited": [
+        "POL-07 §3.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-07 §3.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.658910512924194
+    },
+    {
+      "id": "g32",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days does the company have to answer a request to access personal data?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the company's timeframe for responding to a request for access to personal data?",
+      "answer": "The company responds within 21 calendar days [POL-07 §4.2].",
+      "cited": [
+        "POL-07 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-07 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.70023226737976
+    },
+    {
+      "id": "g33",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How often are fire drills held?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the frequency of fire drills as per company policy?",
+      "answer": "Fire drills are held twice a year [POL-13 §2.1].",
+      "cited": [
+        "POL-13 §2.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-13 §2.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.444363355636597
+    },
+    {
+      "id": "g34",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "I hurt myself at work. Who do I tell and by when?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Who should I notify and by what date regarding a work-related injury?",
+      "answer": "You must report any workplace accident, injury, or near miss to Facilities at safety@meridianworks.example within 24 hours [POL-13 §1.1]. Serious injuries should also be reported immediately by phone to extension 2999 [POL-13 §1.2].",
+      "cited": [
+        "POL-13 §1.1",
+        "POL-13 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-13 §1.1",
+          "POL-13 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.944509983062744
+    },
+    {
+      "id": "g35",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I report harassment anonymously?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Is anonymous reporting available for harassment incidents?",
+      "answer": "Yes, reports of harassment can be made anonymously [POL-14 §1.2].",
+      "cited": [
+        "POL-14 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-14 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.183535099029541
+    },
+    {
+      "id": "g36",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Do I need approval for a second job?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Do I require authorization for engaging in additional employment?",
+      "answer": "Yes, you need written approval from your manager and HR before taking any paid outside employment [POL-01 §3.1].",
+      "cited": [
+        "POL-01 §3.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-01 §3.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.038817882537842
+    },
+    {
+      "id": "g37",
+      "type": "conflict",
+      "set": "standard",
+      "role": "employee",
+      "question": "If two policies say different things, which one applies?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "In the event of a conflict between two company policies, which policy takes precedence?",
+      "answer": "If two policies say different things, the policy with the later effective date prevails [POL-01 §6.1]. If the effective dates are the same, the more specific policy prevails over the more general one [POL-01 §6.2]. Questions about which policy applies should be directed to HR [POL-01 §6.4].",
+      "cited": [
+        "POL-01 §6.1",
+        "POL-01 §6.2",
+        "POL-01 §6.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-01 §6.1",
+          "POL-01 §6.2",
+          "POL-01 §6.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 15.10538101196289
+    },
+    {
+      "id": "g38",
+      "type": "restricted-ok",
+      "set": "standard",
+      "role": "manager",
+      "question": "How many quotations do I need for a RM 20,000 purchase?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "What is the required number of quotations for a RM 20,000 purchase under the company's procurement policy?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "No clause directly addresses the number of quotations needed for a RM 20,000 purchase.",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g39",
+      "type": "restricted-ok",
+      "set": "standard",
+      "role": "hr",
+      "question": "What is the target bonus percentage for a Grade 5 employee?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the target bonus percentage for a Grade 5 employee according to the company's compensation policy?",
+      "answer": "The target bonus percentage for a Grade 5 employee is 10 percent [POL-10 §2.1].",
+      "cited": [
+        "POL-10 §2.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-10 §2.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.368021488189697
+    },
+    {
+      "id": "g40",
+      "type": "restricted-ok",
+      "set": "standard",
+      "role": "manager",
+      "question": "What is the notice period after confirmation for a Grade 7 employee?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the notice period after confirmation for an employee in Grade 7?",
+      "answer": "The notice period after confirmation for a Grade 7 employee is 3 months [POL-11 §3.3].",
+      "cited": [
+        "POL-11 §3.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-11 §3.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.021915674209595
+    },
+    {
+      "id": "g41",
+      "type": "restricted-ok",
+      "set": "standard",
+      "role": "manager",
+      "question": "What do I need to promote someone on my team?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "What are the requirements for promoting an employee according to company policy?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "The clauses are about promotion requirements for employees, not about promoting someone on a team.",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g42",
+      "type": "restricted-ok",
+      "set": "standard",
+      "role": "hr",
+      "question": "Is someone on a performance improvement plan eligible for the bonus?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Is an employee on a performance improvement plan eligible for the bonus?",
+      "answer": "No, an employee on a performance improvement plan is not eligible for the annual bonus [POL-09 §4.3, POL-10 §2.4].",
+      "cited": [
+        "POL-09 §4.3",
+        "POL-10 §2.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-09 §4.3",
+          "POL-10 §2.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.60942792892456
+    },
+    {
+      "id": "g43",
+      "type": "restricted-blocked",
+      "set": "standard",
+      "role": "employee",
+      "question": "What bonus percentage does a Grade 5 employee get?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "What is the bonus percentage entitlement for an employee graded 5?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g44",
+      "type": "restricted-blocked",
+      "set": "standard",
+      "role": "employee",
+      "question": "What is the notice period after confirmation for a Grade 7 employee?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "What is the notice period after confirmation for an employee in Grade 7?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause mentions notice period after confirmation for a Grade 7 employee",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g45",
+      "type": "restricted-blocked",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many quotations are needed for a RM 20,000 purchase?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "How many quotations are required for a RM 20,000 purchase?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found for purchase quotations",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g46",
+      "type": "restricted-blocked",
+      "set": "standard",
+      "role": "employee",
+      "question": "What do managers need to promote someone?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "What criteria and procedures must managers follow to initiate a promotion?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g47",
+      "type": "silent",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I bring my dog to the office?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "Is it permissible to bring a service animal to the workplace under the company's policy on animal accommodation?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g48",
+      "type": "silent",
+      "set": "standard",
+      "role": "employee",
+      "question": "Does the company give dental coverage?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "Is dental coverage provided under the company's benefits plan?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g49",
+      "type": "silent",
+      "set": "standard",
+      "role": "employee",
+      "question": "Does the company offer stock options?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "Is the company policy handbook inclusive of stock option provisions?",
+      "answer": "I could not find this in the company policies available to your role. Please contact IT Security at security@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "g50",
+      "type": "out-of-domain",
+      "set": "standard",
+      "role": "employee",
+      "question": "What is the capital of France?",
+      "answerable": false,
+      "status": "refused",
+      "rewritten": "What is the official capital city as defined by governmental policy?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no relevant clauses found",
+      "cited_expected": null,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "s01",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "can i wfh everyday?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "is it permissible to work from home on a daily basis?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause allows WFH every day",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "s02",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how many mc days can i take in a year",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "how many medical certificate days are eligible for accrual in a calendar year",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause mentions mc days",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "s03",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "boss wants me to expense a beer with the client, ok?",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "Is it permissible to expense alcohol with a client?",
+      "answer": "I could not find this in the company policies available to your role. Please contact Finance at finance@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause allows reimbursement for alcohol",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "s04",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "a vendor sent me a hamper worth about 400 bucks",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "a vendor sent me a gift worth approximately 400 dollars",
+      "answer": "The hamper must be declared to Compliance within 7 days [POL-08 §2.2].",
+      "cited": [
+        "POL-08 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-08 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.14220643043518
+    },
+    {
+      "id": "s05",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "i lost my work phone",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "I have lost my work-issued mobile device. What are the procedures for reporting this?",
+      "answer": "1. Report the lost or stolen device to IT Security at security@meridianworks.example within 2 hours of discovery [POL-06 §2.4].",
+      "cited": [
+        "POL-06 §2.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-06 §2.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.528395891189575
+    },
+    {
+      "id": "s06",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "can i work from bali for a month",
+      "answerable": true,
+      "status": "refused",
+      "rewritten": "is it permissible to work from home in Bali for a period of one month",
+      "answer": "I could not find this in the company policies available to your role. Please contact Human Resources at hr@meridianworks.example.",
+      "cited": [],
+      "refusal_reason": "no clause directly addresses working from abroad for more than 20 days",
+      "cited_expected": false,
+      "citation_valid": null,
+      "fact_ok": null,
+      "verification": {},
+      "leak": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "s07",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "when do i get my money back after submitting a claim",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "what is the timeline for reimbursement following the submission of a claim",
+      "answer": "Approved claims are paid within 14 working days of approval [POL-04 §1.4].",
+      "cited": [
+        "POL-04 §1.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-04 §1.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.609049558639526
+    },
+    {
+      "id": "s08",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "my baby is due soon, how long can my husband be off",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "how long can an employee be absent under the company policy for a spouse's maternity leave",
+      "answer": "Your husband is entitled to 7 working days of paternity leave, which must be taken within 60 days of the birth [POL-02 §4.2].",
+      "cited": [
+        "POL-02 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.469651222229004
+    },
+    {
+      "id": "s09",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "someone hacked my email what now",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What are the steps to follow in the event of email compromise according to company policy?",
+      "answer": "1. Report the suspected phishing incident using the report button in your email client [POL-06 §5.1].\n2. Report the incident to security@meridianworks.example immediately [POL-06 §5.2].\n3. If the breach involves personal data, also report it to the Data Protection Officer at dpo@meridianworks.example within 24 hours [POL-07 §2.1].",
+      "cited": [
+        "POL-06 §5.1",
+        "POL-06 §5.2",
+        "POL-07 §2.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-06 §5.1",
+          "POL-06 §5.2",
+          "POL-07 §2.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 15.532371997833252
+    },
+    {
+      "id": "s10",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "is smoking allowed in the office",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "are tobacco products permitted in the workplace",
+      "answer": "No, smoking and vaping are not allowed inside company premises [POL-13 §3.3].",
+      "cited": [
+        "POL-13 §3.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-13 §3.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.587902307510376
+    },
+    {
+      "id": "s11",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how much can i spend taking a client to a fancy dinner",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "what is the maximum amount allowable for entertaining a client at a dining establishment?",
+      "answer": "You can spend up to RM 150 per person per occasion on client entertainment [POL-04 §3.1]. Alcohol is not reimbursable under any circumstances [POL-04 §3.2].",
+      "cited": [
+        "POL-04 §3.1",
+        "POL-04 §3.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-04 §3.1",
+          "POL-04 §3.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.590451002120972
+    },
+    {
+      "id": "s12",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how do i report my boss for bullying",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "how do i report an incident of bullying as per the company's harassment and bullying policy",
+      "answer": "1. Report the bullying to HR at hr@meridianworks.example or through the channel in POL-14 [POL-01 §2.2].\n2. Alternatively, report it to ethics@meridianworks.example or the independent hotline if it involves fraud, bribery, harassment, or other serious misconduct [POL-14 §1.1].",
+      "cited": [
+        "POL-01 §2.2",
+        "POL-14 §1.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-01 §2.2",
+          "POL-14 §1.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.977797031402588
+    },
+    {
+      "id": "s13",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "what happens to my leave if i dont use it by year end",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What are the consequences if annual leave is not utilized by the end of the fiscal year?",
+      "answer": "Up to 5 unused days may be carried forward to the next year, but any unused leave beyond that expires on 31 March [POL-02 §1.4].",
+      "cited": [
+        "POL-02 §1.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §1.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.088948488235474
+    },
+    {
+      "id": "s14",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how many leave days do i get when i get married",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "how many leave days are entitled upon getting married",
+      "answer": "You are entitled to 3 working days of marriage leave [POL-02 §5.2].",
+      "cited": [
+        "POL-02 §5.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §5.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.02969241142273
+    },
+    {
+      "id": "s15",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "want to fly premium economy to singapore",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "seek approval for travel class upgrade to premium economy for a trip to Singapore",
+      "answer": "1. Premium economy is allowed for flights of 6 hours or more [POL-05 §2.2].\n2. The flight to Singapore is over 6 hours, so premium economy is allowed.\n3. Ensure the flight is approved by your department head if the cost exceeds the nightly cap [POL-05 §2.4].",
+      "cited": [
+        "POL-05 §2.2",
+        "POL-05 §2.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-05 §2.2",
+          "POL-05 §2.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.699978828430176
+    },
+    {
+      "id": "s16",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "do i need to join the fire drill",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "are employees required to participate in fire drills",
+      "answer": "Yes, you need to join the fire drill as attendance is mandatory [POL-13 §2.1].",
+      "cited": [
+        "POL-13 §2.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-13 §2.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 12.099600553512573
+    }
+  ]
+}

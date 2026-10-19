@@ -1,0 +1,5008 @@
+{
+  "label": "v2b",
+  "timestamp": "2026-10-14T20:14:19",
+  "embed_model": "bge-m3",
+  "rerank_model": "BAAI/bge-reranker-base",
+  "results": {
+    "dense": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.8620689655172413,
+        "hit@3": 0.9310344827586207,
+        "hit@5": 0.9827586206896551,
+        "cover@5": 0.9655172413793104,
+        "mrr": 0.9086206896551725,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a75.3"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a75.4",
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 \u00a73.1",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a73.2",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-06 v3.0 \u00a71.3",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-06 v3.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-07 v2.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.3",
+            "POL-13 v1.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.4",
+            "POL-13 v1.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a71.2",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-02 v3.1 \u00a72.2",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-01 v2.0 \u00a76.2",
+            "POL-01 v2.0 \u00a76.3"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a71.1",
+            "POL-12 v1.6 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-09 v1.5 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-09 v1.5 \u00a73.1",
+            "POL-09 v1.5 \u00a73.2",
+            "POL-09 v1.5 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-10 v2.0 \u00a72.4",
+            "POL-09 v1.5 \u00a74.3",
+            "POL-09 v1.5 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.1",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a71.2",
+            "POL-05 v1.3 \u00a74.3",
+            "POL-03 v1.4 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.2",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.2",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a71.1",
+            "POL-01 v2.0 \u00a72.2",
+            "POL-01 v2.0 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        }
+      ]
+    },
+    "bm25": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.5517241379310345,
+        "hit@3": 0.7241379310344828,
+        "hit@5": 0.7931034482758621,
+        "cover@5": 0.7413793103448276,
+        "mrr": 0.658976464148878,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a72.2",
+            "POL-08 v1.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a74.3",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-06 v3.0 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a75.4"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-08 v1.2 \u00a72.4",
+            "POL-04 v2.2 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a72.4",
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a72.4",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-04 v2.2 \u00a72.4",
+            "POL-06 v3.0 \u00a75.1"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a75.1",
+            "POL-04 v2.2 \u00a75.3",
+            "POL-04 v2.2 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.2",
+            "POL-03 v1.4 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a74.2",
+            "POL-05 v1.3 \u00a71.3",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a72.2",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 Gift thresholds"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 Gift thresholds",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 Gift thresholds",
+            "POL-08 v1.2 \u00a71.1",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": null,
+          "top": []
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a75.1",
+            "POL-14 v1.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-08 v1.2 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-01 v2.0 \u00a73.2",
+            "POL-04 v2.2 \u00a75.2",
+            "POL-06 v3.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-07 v2.1 \u00a72.2",
+            "POL-07 v2.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a71.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-06 v3.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-05 v1.3 \u00a74.1",
+            "POL-05 v1.3 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a74.3",
+            "POL-03 v1.4 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a71.2",
+            "POL-01 v2.0 \u00a72.1",
+            "POL-14 v1.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a75.2",
+            "POL-06 v3.0 \u00a72.3",
+            "POL-07 v2.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-12 v1.6 \u00a73.2",
+            "POL-12 v1.6 Purchasing thresholds",
+            "POL-12 v1.6 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-09 v1.5 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-11 v2.0 \u00a73.3",
+            "POL-09 v1.5 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-12 v1.6 \u00a72.1",
+            "POL-09 v1.5 \u00a72.2",
+            "POL-03 v1.4 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-09 v1.5 \u00a74.3",
+            "POL-09 v1.5 \u00a74.1",
+            "POL-09 v1.5 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-14 v1.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-03 v1.4 \u00a74.2",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a71.2",
+            "POL-07 v2.1 \u00a73.4",
+            "POL-04 v2.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a72.3",
+            "POL-07 v2.1 \u00a75.2",
+            "POL-06 v3.0 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a74.3",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a71.1",
+            "POL-06 v3.0 \u00a73.1",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a71.1",
+            "POL-06 v3.0 \u00a73.1",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": null,
+          "top": []
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": null,
+          "top": []
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 9,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-06 v3.0 \u00a75.1",
+            "POL-01 v2.0 \u00a75.1"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a75.1",
+            "POL-01 v2.0 \u00a76.4",
+            "POL-14 v1.0 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a71.2",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 7,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a74.3",
+            "POL-03 v1.4 \u00a73.4"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a72.4",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-01 v2.0 \u00a73.3",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a71.2",
+            "POL-06 v3.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-03 v1.4 \u00a74.2",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-06 v3.0 \u00a75.1"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-01 v2.0 \u00a72.1",
+            "POL-14 v1.0 \u00a72.3",
+            "POL-14 v1.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 6,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.3",
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 6,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-07 v2.1 \u00a75.2",
+            "POL-06 v3.0 \u00a72.3"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.7586206896551724,
+        "hit@3": 0.9137931034482759,
+        "hit@5": 0.9827586206896551,
+        "cover@5": 0.9310344827586207,
+        "mrr": 0.8455665024630542,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a75.4",
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03177805800756621,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 Approval matrix",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-04 v2.2 \u00a74.3",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 \u00a73.1",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a74.2",
+            "POL-05 v1.3 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-08 v1.2 \u00a72.2",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 Gift thresholds",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03177805800756621,
+          "top": [
+            "POL-08 v1.2 Gift thresholds",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.01639344262295082,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-06 v3.0 \u00a71.3",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-07 v2.1 \u00a75.1",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032266458495966696,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3",
+            "POL-06 v3.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-07 v2.1 \u00a72.2",
+            "POL-07 v2.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03225806451612903,
+          "top": [
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.3",
+            "POL-05 v1.3 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.028958333333333336,
+          "top": [
+            "POL-01 v2.0 \u00a73.2",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-01 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-14 v1.0 \u00a71.2",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 7,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 0.03131881575727918,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-05 v1.3 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-04 v2.2 \u00a72.4",
+            "POL-01 v2.0 \u00a76.2"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032266458495966696,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a73.2",
+            "POL-12 v1.6 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-10 v2.0 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-11 v2.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.031754032258064516,
+          "top": [
+            "POL-09 v1.5 \u00a72.2",
+            "POL-12 v1.6 \u00a72.1",
+            "POL-12 v1.6 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-09 v1.5 \u00a74.3",
+            "POL-09 v1.5 \u00a74.1",
+            "POL-10 v2.0 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03177805800756621,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03200204813108039,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03131881575727918,
+          "top": [
+            "POL-02 v3.1 \u00a72.3",
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a74.3",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.030886196246139225,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-07 v2.1 \u00a74.2",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.031544957774465976,
+          "top": [
+            "POL-06 v3.0 \u00a72.1",
+            "POL-06 v3.0 \u00a73.1",
+            "POL-05 v1.3 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.01639344262295082,
+          "top": [
+            "POL-08 v1.2 \u00a71.2",
+            "POL-05 v1.3 \u00a74.3",
+            "POL-03 v1.4 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.01639344262295082,
+          "top": [
+            "POL-14 v1.0 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-02 v3.1 \u00a73.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.2",
+            "POL-03 v1.4 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.032266458495966696,
+          "top": [
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03131881575727918,
+          "top": [
+            "POL-04 v2.2 Approval matrix",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.01639344262295082,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-06 v3.0 \u00a71.1",
+            "POL-02 v3.1 \u00a75.2"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-05 v1.3 \u00a72.2",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-01 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.032266458495966696,
+          "top": [
+            "POL-01 v2.0 \u00a72.1",
+            "POL-01 v2.0 \u00a72.2",
+            "POL-14 v1.0 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-02 v3.1 \u00a71.3",
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03225806451612903,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a75.2"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-07 v2.1 \u00a75.2"
+          ]
+        }
+      ]
+    },
+    "hybrid_rerank": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.8620689655172413,
+        "hit@3": 0.9310344827586207,
+        "hit@5": 0.9827586206896551,
+        "cover@5": 0.9310344827586207,
+        "mrr": 0.8991379310344827,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.1169471740722656,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.30673977732658386,
+          "top": [
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 7.161836624145508,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a75.3",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.7027246952056885,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 7.216642379760742,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.651415824890137,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 5.957479953765869,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a75.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 2.103294849395752,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.564262628555298,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-02 v3.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0266852378845215,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.9595248699188232,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 5.126435279846191,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.5102618932723999,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.8797945976257324,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.3",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.953887462615967,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.778294563293457,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a75.2"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.818758487701416,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-04 v2.2 \u00a74.1",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.15634232759475708,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a75.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 8.30168342590332,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-04 v2.2 \u00a74.1",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.4052858352661133,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.675849914550781,
+          "top": [
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.280526638031006,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a74.3",
+            "POL-05 v1.3 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -6.28965950012207,
+          "top": [
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 Gift thresholds"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -3.5695598125457764,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.408358573913574,
+          "top": [
+            "POL-08 v1.2 \u00a73.2",
+            "POL-08 v1.2 \u00a71.1",
+            "POL-08 v1.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.29559648036956787,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.6756932139396667,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.61208438873291,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -7.254067420959473,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-07 v2.1 \u00a71.2",
+            "POL-06 v3.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.51121711730957,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.5871171951293945,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.0021347999572754,
+          "top": [
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.20870304107666,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -7.4760637283325195,
+          "top": [
+            "POL-13 v1.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.4",
+            "POL-13 v1.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.3486108779907227,
+          "top": [
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a71.2",
+            "POL-14 v1.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.740817070007324,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-05 v1.3 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.08794735372066498,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-01 v2.0 \u00a76.4",
+            "POL-05 v1.3 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.3267247676849365,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a71.1",
+            "POL-12 v1.6 Purchasing thresholds"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.2530524730682373,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-09 v1.5 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.6173065304756165,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -4.035691738128662,
+          "top": [
+            "POL-09 v1.5 \u00a73.1",
+            "POL-09 v1.5 \u00a73.2",
+            "POL-09 v1.5 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.4376378059387207,
+          "top": [
+            "POL-09 v1.5 \u00a74.3",
+            "POL-10 v2.0 \u00a72.4",
+            "POL-09 v1.5 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -4.948493957519531,
+          "top": [
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 Approval matrix",
+            "POL-08 v1.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -5.042872428894043,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-07 v2.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -4.130730628967285,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -5.794759750366211,
+          "top": [
+            "POL-01 v2.0 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-05 v1.3 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -6.166814804077148,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -7.513311386108398,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-13 v1.1 \u00a73.3",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -6.309473991394043,
+          "top": [
+            "POL-01 v2.0 \u00a73.1",
+            "POL-04 v2.2 \u00a71.1",
+            "POL-05 v1.3 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -6.479503631591797,
+          "top": [
+            "POL-05 v1.3 \u00a74.3",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -7.3595147132873535,
+          "top": [
+            "POL-03 v1.4 \u00a71.1",
+            "POL-14 v1.0 \u00a73.1",
+            "POL-03 v1.4 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.7955752611160278,
+          "top": [
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -6.543610572814941,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -8.59527587890625,
+          "top": [
+            "POL-07 v2.1 \u00a75.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -4.855016231536865,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.2",
+            "POL-13 v1.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.7877607345581055,
+          "top": [
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.6182516813278198,
+          "top": [
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.2",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.4204436540603638,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -3.637073040008545,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.836256504058838,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.8408002853393555,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-05 v1.3 \u00a73.1",
+            "POL-05 v1.3 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.5356788635253906,
+          "top": [
+            "POL-01 v2.0 \u00a72.2",
+            "POL-14 v1.0 \u00a73.1",
+            "POL-14 v1.0 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.7073938846588135,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.087307929992676,
+          "top": [
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -3.6163201332092285,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.7201895117759705,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-13 v1.1 \u00a72.2",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        }
+      ]
+    },
+    "hybrid_blend": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.7931034482758621,
+        "hit@3": 0.9310344827586207,
+        "hit@5": 0.9482758620689655,
+        "cover@5": 0.9310344827586207,
+        "mrr": 0.8745894909688012,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.1169471740722656,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.30673977732658386,
+          "top": [
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.4"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 7.161836624145508,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a75.3",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.7027246952056885,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 7.216642379760742,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.651415824890137,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 5.957479953765869,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a75.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 7,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 2.103294849395752,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.564262628555298,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0266852378845215,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.9595248699188232,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 5.126435279846191,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.5102618932723999,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a74.3",
+            "POL-03 v1.4 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.8797945976257324,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.3",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.953887462615967,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 \u00a71.3",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.778294563293457,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.818758487701416,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.15634232759475708,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-04 v2.2 \u00a74.3",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 8.30168342590332,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-04 v2.2 \u00a74.1",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.4052858352661133,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.675849914550781,
+          "top": [
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.280526638031006,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -6.491543769836426,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 Gift thresholds",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.5695598125457764,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -7.137613773345947,
+          "top": [
+            "POL-08 v1.2 Gift thresholds",
+            "POL-08 v1.2 \u00a73.2",
+            "POL-08 v1.2 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.29559648036956787,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-06 v3.0 \u00a71.2",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.6756932139396667,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a75.2"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.61208438873291,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-06 v3.0 \u00a73.1",
+            "POL-06 v3.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -7.254067420959473,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-07 v2.1 \u00a71.2",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 4.51121711730957,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 6.5871171951293945,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.0021347999572754,
+          "top": [
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.20870304107666,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -7.4760637283325195,
+          "top": [
+            "POL-13 v1.1 \u00a71.1",
+            "POL-01 v2.0 \u00a73.2",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.3486108779907227,
+          "top": [
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a71.2",
+            "POL-01 v2.0 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "answerable": true,
+          "rank": 6,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": -3.740817070007324,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-05 v1.3 \u00a71.3",
+            "POL-03 v1.4 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.08794735372066498,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-01 v2.0 \u00a76.4",
+            "POL-01 v2.0 \u00a76.2"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.3267247676849365,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a71.1",
+            "POL-12 v1.6 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.2530524730682373,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-10 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.6173065304756165,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-11 v2.0 \u00a73.2",
+            "POL-07 v2.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -6.398694038391113,
+          "top": [
+            "POL-09 v1.5 \u00a72.2",
+            "POL-09 v1.5 \u00a73.1",
+            "POL-09 v1.5 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 3.4376378059387207,
+          "top": [
+            "POL-09 v1.5 \u00a74.3",
+            "POL-10 v2.0 \u00a72.4",
+            "POL-09 v1.5 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -4.948493957519531,
+          "top": [
+            "POL-04 v2.2 \u00a72.1",
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -5.042872428894043,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-02 v3.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -4.130730628967285,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -6.66072940826416,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-01 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -7.250389099121094,
+          "top": [
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -7.513311386108398,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-04 v2.2 \u00a71.1",
+            "POL-13 v1.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -8.30111026763916,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-06 v3.0 \u00a73.1",
+            "POL-13 v1.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": -6.479503631591797,
+          "top": [
+            "POL-05 v1.3 \u00a74.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-03 v1.4 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -9.169647216796875,
+          "top": [
+            "POL-14 v1.0 \u00a73.1",
+            "POL-03 v1.4 \u00a72.3",
+            "POL-03 v1.4 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.7955752611160278,
+          "top": [
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -6.543610572814941,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 6,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": -8.59527587890625,
+          "top": [
+            "POL-07 v2.1 \u00a75.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -4.855016231536865,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-13 v1.1 \u00a71.2",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -5.7877607345581055,
+          "top": [
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -6.470513343811035,
+          "top": [
+            "POL-07 v2.1 \u00a73.1",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.4204436540603638,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": -3.637073040008545,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 2.836256504058838,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-03 v1.4 \u00a74.2",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -1.8408002853393555,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-05 v1.3 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.5356788635253906,
+          "top": [
+            "POL-01 v2.0 \u00a72.2",
+            "POL-14 v1.0 \u00a73.1",
+            "POL-14 v1.0 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.7073938846588135,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a71.3"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -0.7298833727836609,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": -3.6163201332092285,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.7201895117759705,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-13 v1.1 \u00a72.2"
+          ]
+        }
+      ]
+    }
+  }
+}

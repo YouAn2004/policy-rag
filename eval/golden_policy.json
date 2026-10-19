@@ -1,0 +1,963 @@
+{
+  "version": 1,
+  "notes": "expected: any listed clause counts as a hit. Forbidden ids or docs must never be returned. Ids use POL-xx#clause for the current version. Questions with set=stress use colloquial wording and were added after the first baseline.",
+  "questions": [
+    {
+      "id": "g01",
+      "type": "version",
+      "role": "employee",
+      "question": "How many days of annual leave do I get after 6 years of service?",
+      "answerable": true,
+      "expected": [
+        "POL-02#1.2"
+      ],
+      "forbidden": [
+        "POL-02@v3.0#1.2"
+      ],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "20"
+      ]
+    },
+    {
+      "id": "g02",
+      "type": "version",
+      "role": "employee",
+      "question": "I have been here 3 years. How many days of annual leave do I have?",
+      "answerable": true,
+      "expected": [
+        "POL-02#1.1"
+      ],
+      "forbidden": [
+        "POL-02@v3.0#1.1"
+      ],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "16"
+      ],
+      "must_not_contain": [
+        "14 days"
+      ]
+    },
+    {
+      "id": "g03",
+      "type": "version",
+      "role": "employee",
+      "question": "How many unused leave days can I carry forward and when do they expire?",
+      "answerable": true,
+      "expected": [
+        "POL-02#1.4"
+      ],
+      "forbidden": [
+        "POL-02@v3.0#1.4"
+      ],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "5",
+        "31 March"
+      ],
+      "must_not_contain": [
+        "30 June"
+      ]
+    },
+    {
+      "id": "g04",
+      "type": "factual",
+      "role": "employee",
+      "question": "How much notice do I need to give for two weeks of leave?",
+      "answerable": true,
+      "expected": [
+        "POL-02#2.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g05",
+      "type": "version",
+      "role": "employee",
+      "question": "How many sick leave days do I get if I am not hospitalised?",
+      "answerable": true,
+      "expected": [
+        "POL-02#3.1"
+      ],
+      "forbidden": [
+        "POL-02@v3.0#3.1"
+      ],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "18"
+      ],
+      "must_not_contain": [
+        "14 days"
+      ]
+    },
+    {
+      "id": "g06",
+      "type": "factual",
+      "role": "employee",
+      "question": "Do I need a medical certificate if I am sick for two days?",
+      "answerable": true,
+      "expected": [
+        "POL-02#3.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g07",
+      "type": "version",
+      "role": "employee",
+      "question": "How long is paternity leave?",
+      "answerable": true,
+      "expected": [
+        "POL-02#4.2"
+      ],
+      "forbidden": [
+        "POL-02@v3.0#4.2"
+      ],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "7"
+      ],
+      "must_not_contain": [
+        "5 working days"
+      ]
+    },
+    {
+      "id": "g08",
+      "type": "silent-explicit",
+      "role": "employee",
+      "question": "Can I take a sabbatical?",
+      "answerable": true,
+      "expected": [
+        "POL-02#5.4"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "Handbook explicitly says no sabbatical."
+    },
+    {
+      "id": "g09",
+      "type": "factual",
+      "role": "employee",
+      "question": "How many days a week can I work from home?",
+      "answerable": true,
+      "expected": [
+        "POL-03#2.1",
+        "POL-03#2.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g10",
+      "type": "factual",
+      "role": "employee",
+      "question": "How many days a year can I work from another country?",
+      "answerable": true,
+      "expected": [
+        "POL-03#3.1",
+        "POL-03#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g11",
+      "type": "factual",
+      "role": "employee",
+      "question": "Will I be paid cash for approved overtime?",
+      "answerable": true,
+      "expected": [
+        "POL-03#1.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g12",
+      "type": "factual",
+      "role": "employee",
+      "question": "What are the core working hours?",
+      "answerable": true,
+      "expected": [
+        "POL-03#1.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g13",
+      "type": "factual",
+      "role": "employee",
+      "question": "Is there an allowance for setting up a home office?",
+      "answerable": true,
+      "expected": [
+        "POL-03#4.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g14",
+      "type": "table",
+      "role": "employee",
+      "question": "Who needs to approve my expense claim of RM 5,000?",
+      "answerable": true,
+      "expected": [
+        "POL-04#2.2",
+        "POL-04#Tapproval-matrix"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain_any": [
+        [
+          "department head"
+        ]
+      ]
+    },
+    {
+      "id": "g15",
+      "type": "factual",
+      "role": "employee",
+      "question": "How long do I have to submit an expense claim?",
+      "answerable": true,
+      "expected": [
+        "POL-04#1.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g16",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I claim the alcohol I bought at a client dinner?",
+      "answerable": true,
+      "expected": [
+        "POL-04#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g17",
+      "type": "factual",
+      "role": "employee",
+      "question": "What is the mileage rate for using my own car for work?",
+      "answerable": true,
+      "expected": [
+        "POL-04#4.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g18",
+      "type": "silent-explicit",
+      "role": "employee",
+      "question": "Can I be reimbursed for paying a vendor in cryptocurrency?",
+      "answerable": true,
+      "expected": [
+        "POL-04#5.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g19",
+      "type": "conflict",
+      "role": "employee",
+      "question": "How much meal allowance do I get per day on a domestic business trip?",
+      "answerable": true,
+      "expected": [
+        "POL-05#3.2",
+        "POL-04#4.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "Both clauses must surface. POL-05 (later date) prevails.",
+      "must_contain": [
+        "70"
+      ]
+    },
+    {
+      "id": "g20",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I fly business class on a 9 hour flight?",
+      "answerable": true,
+      "expected": [
+        "POL-05#2.1",
+        "POL-05#2.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g21",
+      "type": "table",
+      "role": "employee",
+      "question": "What is the hotel cap per night in a Tier 2 city?",
+      "answerable": true,
+      "expected": [
+        "POL-05#2.3",
+        "POL-05#Ttravel-allowance-schedule"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g22",
+      "type": "factual",
+      "role": "employee",
+      "question": "Who must approve a business trip overseas?",
+      "answerable": true,
+      "expected": [
+        "POL-05#1.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g23",
+      "type": "table",
+      "role": "employee",
+      "question": "A supplier gave me a gift worth RM 350. What should I do?",
+      "answerable": true,
+      "expected": [
+        "POL-08#2.2",
+        "POL-08#Tgift-thresholds"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain_any": [
+        [
+          "declare"
+        ]
+      ]
+    },
+    {
+      "id": "g24",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I keep a RM 600 gift from a client?",
+      "answerable": true,
+      "expected": [
+        "POL-08#2.3",
+        "POL-08#Tgift-thresholds"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain_any": [
+        [
+          "refus",
+          "return"
+        ]
+      ]
+    },
+    {
+      "id": "g25",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I give a gift to a government official?",
+      "answerable": true,
+      "expected": [
+        "POL-08#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g26",
+      "type": "factual",
+      "role": "employee",
+      "question": "What is the minimum password length?",
+      "answerable": true,
+      "expected": [
+        "POL-06#1.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g27",
+      "type": "factual",
+      "role": "employee",
+      "question": "My laptop was stolen. How fast must I report it?",
+      "answerable": true,
+      "expected": [
+        "POL-06#2.4"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "2 hours"
+      ]
+    },
+    {
+      "id": "g28",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I paste customer data into a public AI chatbot?",
+      "answerable": true,
+      "expected": [
+        "POL-06#3.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g29",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I save work files in my personal Dropbox?",
+      "answerable": true,
+      "expected": [
+        "POL-06#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g30",
+      "type": "factual",
+      "role": "employee",
+      "question": "How quickly must a personal data breach be reported?",
+      "answerable": true,
+      "expected": [
+        "POL-07#2.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "g31",
+      "type": "factual",
+      "role": "employee",
+      "question": "How long does the company keep employee records after they leave?",
+      "answerable": true,
+      "expected": [
+        "POL-07#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "7 years"
+      ]
+    },
+    {
+      "id": "g32",
+      "type": "factual",
+      "role": "employee",
+      "question": "How many days does the company have to answer a request to access personal data?",
+      "answerable": true,
+      "expected": [
+        "POL-07#4.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "",
+      "must_contain": [
+        "21"
+      ]
+    },
+    {
+      "id": "g33",
+      "type": "factual",
+      "role": "employee",
+      "question": "How often are fire drills held?",
+      "answerable": true,
+      "expected": [
+        "POL-13#2.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g34",
+      "type": "factual",
+      "role": "employee",
+      "question": "I hurt myself at work. Who do I tell and by when?",
+      "answerable": true,
+      "expected": [
+        "POL-13#1.1",
+        "POL-13#1.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g35",
+      "type": "factual",
+      "role": "employee",
+      "question": "Can I report harassment anonymously?",
+      "answerable": true,
+      "expected": [
+        "POL-14#1.2",
+        "POL-14#1.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g36",
+      "type": "factual",
+      "role": "employee",
+      "question": "Do I need approval for a second job?",
+      "answerable": true,
+      "expected": [
+        "POL-01#3.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g37",
+      "type": "conflict",
+      "role": "employee",
+      "question": "If two policies say different things, which one applies?",
+      "answerable": true,
+      "expected": [
+        "POL-01#6.1",
+        "POL-01#6.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g38",
+      "type": "restricted-ok",
+      "role": "manager",
+      "question": "How many quotations do I need for a RM 20,000 purchase?",
+      "answerable": true,
+      "expected": [
+        "POL-12#1.2",
+        "POL-12#Tpurchasing-thresholds"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g39",
+      "type": "restricted-ok",
+      "role": "hr",
+      "question": "What is the target bonus percentage for a Grade 5 employee?",
+      "answerable": true,
+      "expected": [
+        "POL-10#2.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g40",
+      "type": "restricted-ok",
+      "role": "manager",
+      "question": "What is the notice period after confirmation for a Grade 7 employee?",
+      "answerable": true,
+      "expected": [
+        "POL-11#3.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g41",
+      "type": "restricted-ok",
+      "role": "manager",
+      "question": "What do I need to promote someone on my team?",
+      "answerable": true,
+      "expected": [
+        "POL-09#3.1",
+        "POL-09#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g42",
+      "type": "restricted-ok",
+      "role": "hr",
+      "question": "Is someone on a performance improvement plan eligible for the bonus?",
+      "answerable": true,
+      "expected": [
+        "POL-09#4.3",
+        "POL-10#2.5"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g43",
+      "type": "restricted-blocked",
+      "role": "employee",
+      "question": "What bonus percentage does a Grade 5 employee get?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [
+        "POL-10"
+      ],
+      "note": ""
+    },
+    {
+      "id": "g44",
+      "type": "restricted-blocked",
+      "role": "employee",
+      "question": "What is the notice period after confirmation for a Grade 7 employee?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [
+        "POL-11"
+      ],
+      "note": ""
+    },
+    {
+      "id": "g45",
+      "type": "restricted-blocked",
+      "role": "employee",
+      "question": "How many quotations are needed for a RM 20,000 purchase?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [
+        "POL-12"
+      ],
+      "note": ""
+    },
+    {
+      "id": "g46",
+      "type": "restricted-blocked",
+      "role": "employee",
+      "question": "What do managers need to promote someone?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [
+        "POL-09"
+      ],
+      "note": ""
+    },
+    {
+      "id": "g47",
+      "type": "silent",
+      "role": "employee",
+      "question": "Can I bring my dog to the office?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g48",
+      "type": "silent",
+      "role": "employee",
+      "question": "Does the company give dental coverage?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g49",
+      "type": "silent",
+      "role": "employee",
+      "question": "Does the company offer stock options?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "g50",
+      "type": "out-of-domain",
+      "role": "employee",
+      "question": "What is the capital of France?",
+      "answerable": false,
+      "expected": [],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": ""
+    },
+    {
+      "id": "s01",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "can i wfh everyday?",
+      "answerable": true,
+      "expected": [
+        "POL-03#2.1",
+        "POL-03#2.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s02",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how many mc days can i take in a year",
+      "answerable": true,
+      "expected": [
+        "POL-02#3.1",
+        "POL-02#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s03",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "boss wants me to expense a beer with the client, ok?",
+      "answerable": true,
+      "expected": [
+        "POL-04#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s04",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "a vendor sent me a hamper worth about 400 bucks",
+      "answerable": true,
+      "expected": [
+        "POL-08#2.2",
+        "POL-08#Tgift-thresholds"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s05",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "i lost my work phone",
+      "answerable": true,
+      "expected": [
+        "POL-06#2.4"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s06",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "can i work from bali for a month",
+      "answerable": true,
+      "expected": [
+        "POL-03#3.1",
+        "POL-03#3.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s07",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "when do i get my money back after submitting a claim",
+      "answerable": true,
+      "expected": [
+        "POL-04#1.4"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s08",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "my baby is due soon, how long can my husband be off",
+      "answerable": true,
+      "expected": [
+        "POL-02#4.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s09",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "someone hacked my email what now",
+      "answerable": true,
+      "expected": [
+        "POL-06#5.2",
+        "POL-06#5.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s10",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "is smoking allowed in the office",
+      "answerable": true,
+      "expected": [
+        "POL-13#3.3"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s11",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how much can i spend taking a client to a fancy dinner",
+      "answerable": true,
+      "expected": [
+        "POL-04#3.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s12",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how do i report my boss for bullying",
+      "answerable": true,
+      "expected": [
+        "POL-01#2.2",
+        "POL-14#1.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s13",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "what happens to my leave if i dont use it by year end",
+      "answerable": true,
+      "expected": [
+        "POL-02#1.4",
+        "POL-02#1.5"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s14",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "how many leave days do i get when i get married",
+      "answerable": true,
+      "expected": [
+        "POL-02#5.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s15",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "want to fly premium economy to singapore",
+      "answerable": true,
+      "expected": [
+        "POL-05#2.1",
+        "POL-05#2.2"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    },
+    {
+      "id": "s16",
+      "type": "stress",
+      "set": "stress",
+      "role": "employee",
+      "question": "do i need to join the fire drill",
+      "answerable": true,
+      "expected": [
+        "POL-13#2.1"
+      ],
+      "forbidden": [],
+      "forbidden_docs": [],
+      "note": "colloquial or indirect wording"
+    }
+  ]
+}

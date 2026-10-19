@@ -1,0 +1,343 @@
+{
+  "label": "p3",
+  "timestamp": "2026-10-14T21:13:19",
+  "llm": "qwen2.5:7b",
+  "rewrite": true,
+  "summary": {
+    "answerable_n": 10,
+    "unanswerable_n": 0,
+    "answered_rate": 1.0,
+    "correct_refusal_rate": null,
+    "citation_valid": 1.0,
+    "citation_recall": 1.0,
+    "fact_checks": 1.0,
+    "fact_checks_n": 5,
+    "flagged_rate": 0.1,
+    "leaks": 0,
+    "mean_seconds": 14.4600280046463
+  },
+  "rows": [
+    {
+      "id": "g01",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days of annual leave do I get after 6 years of service?",
+      "answerable": true,
+      "status": "flagged",
+      "rewritten": "What is the entitlement for annual leave after 6 years of service according to the company policy handbook?",
+      "answer": "[POL-02 §1.2] You receive 20 days of paid annual leave per calendar year after 6 years of service.",
+      "cited": [
+        "POL-02 §1.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": false,
+          "problems": [
+            "The policy states 5 or more years of service, not 6 years."
+          ]
+        }
+      },
+      "leak": [],
+      "seconds": 22.47040581703186
+    },
+    {
+      "id": "g02",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "I have been here 3 years. How many days of annual leave do I have?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How many days of annual leave entitlement do I accrue after 3 years of service?",
+      "answer": "You receive 16 days of paid annual leave per calendar year [POL-02 §1.1].",
+      "cited": [
+        "POL-02 §1.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.430099487304688
+    },
+    {
+      "id": "g03",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many unused leave days can I carry forward and when do they expire?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the maximum number of unused leave days that can be carried forward, and what is the expiration policy for such days?",
+      "answer": "You can carry forward up to 5 unused days of annual leave to the next year, and these carried forward days expire on 31 March [POL-02 §1.4].",
+      "cited": [
+        "POL-02 §1.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §1.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 14.3572838306427
+    },
+    {
+      "id": "g04",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How much notice do I need to give for a week of leave?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the required notice period for availing a week of leave?",
+      "answer": "[POL-02 §2.2] You need to give 14 calendar days notice and obtain manager approval for a week (more than 5 consecutive working days) of leave.",
+      "cited": [
+        "POL-02 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.473837614059448
+    },
+    {
+      "id": "g05",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many sick leave days do I get if I am not hospitalised?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How many days of medical leave am I entitled to if I am not hospitalized?",
+      "answer": "You receive 18 days of paid sick leave per year when not hospitalised [POL-02 §3.1].",
+      "cited": [
+        "POL-02 §3.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §3.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.355998754501343
+    },
+    {
+      "id": "g06",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "Do I need a medical certificate if I am sick for two days?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Do I require a medical certificate for sick leave if I am absent for two days?",
+      "answer": "Yes, a medical certificate from a registered practitioner is required for sick leave of 2 or more consecutive days [POL-02 §3.3].",
+      "cited": [
+        "POL-02 §3.3"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §3.3"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.98764181137085
+    },
+    {
+      "id": "g07",
+      "type": "version",
+      "set": "standard",
+      "role": "employee",
+      "question": "How long is paternity leave?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the duration of parental leave for male employees?",
+      "answer": "Paternity leave is 7 working days and must be taken within 60 days of the birth [POL-02 §4.2].",
+      "cited": [
+        "POL-02 §4.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": true,
+      "verification": {
+        "cited": [
+          "POL-02 §4.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.177222967147827
+    },
+    {
+      "id": "g08",
+      "type": "silent-explicit",
+      "set": "standard",
+      "role": "employee",
+      "question": "Can I take a sabbatical?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "Am I eligible to apply for a sabbatical leave?",
+      "answer": "No, sabbatical leave is not provided under this policy [POL-02 §5.4].",
+      "cited": [
+        "POL-02 §5.4"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-02 §5.4"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.133668422698975
+    },
+    {
+      "id": "g09",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days a week can I work from home?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "What is the maximum number of days per week authorized for work from home?",
+      "answer": "Up to 2 days per week may be worked from home with manager awareness through the team calendar. [POL-03 §2.2]",
+      "cited": [
+        "POL-03 §2.2"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §2.2"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.990396738052368
+    },
+    {
+      "id": "g10",
+      "type": "factual",
+      "set": "standard",
+      "role": "employee",
+      "question": "How many days a year can I work from another country?",
+      "answerable": true,
+      "status": "answered",
+      "rewritten": "How many days per year are permitted for work from another country?",
+      "answer": "You can work from outside Malaysia for up to 20 working days per calendar year [POL-03 §3.1].",
+      "cited": [
+        "POL-03 §3.1"
+      ],
+      "refusal_reason": "",
+      "cited_expected": true,
+      "citation_valid": true,
+      "fact_ok": null,
+      "verification": {
+        "cited": [
+          "POL-03 §3.1"
+        ],
+        "invalid_citations": [],
+        "uncited": false,
+        "unsupported_numbers": [],
+        "llm_support": {
+          "supported": true,
+          "problems": []
+        }
+      },
+      "leak": [],
+      "seconds": 13.223724603652954
+    }
+  ]
+}

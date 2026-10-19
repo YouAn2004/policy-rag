@@ -1,0 +1,2146 @@
+{
+  "label": "v3",
+  "timestamp": "2026-10-14T20:44:00",
+  "embed_model": "bge-m3",
+  "rerank_model": "BAAI/bge-reranker-base",
+  "results": {
+    "dense": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.8620689655172413,
+        "hit@3": 0.9310344827586207,
+        "hit@5": 0.9827586206896551,
+        "cover@5": 0.9655172413793104,
+        "mrr": 0.9086206896551725,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a75.3"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a75.4",
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 Travel allowance schedule"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 \u00a73.1",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a73.2",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-06 v3.0 \u00a71.3",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-06 v3.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-07 v2.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.3",
+            "POL-13 v1.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.4",
+            "POL-13 v1.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a71.2",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 5,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-02 v3.1 \u00a72.2",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-01 v2.0 \u00a76.2",
+            "POL-01 v2.0 \u00a76.3"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a71.1",
+            "POL-12 v1.6 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-09 v1.5 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-09 v1.5 \u00a73.1",
+            "POL-09 v1.5 \u00a73.2",
+            "POL-09 v1.5 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-10 v2.0 \u00a72.4",
+            "POL-09 v1.5 \u00a74.3",
+            "POL-09 v1.5 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a74.1",
+            "POL-03 v1.4 \u00a73.3",
+            "POL-03 v1.4 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.1",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "rewrite": "",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a71.2",
+            "POL-05 v1.3 \u00a74.3",
+            "POL-03 v1.4 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1",
+            "POL-03 v1.4 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": null,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.2",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.2",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-14 v1.0 \u00a71.1",
+            "POL-01 v2.0 \u00a72.2",
+            "POL-01 v2.0 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 1.0,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        }
+      ]
+    },
+    "dense_rewrite": {
+      "summary": {
+        "n": 58,
+        "hit@1": 0.896551724137931,
+        "hit@3": 0.9482758620689655,
+        "hit@5": 0.9827586206896551,
+        "cover@5": 0.9655172413793104,
+        "mrr": 0.9310344827586207,
+        "violations": 0
+      },
+      "rows": [
+        {
+          "id": "g01",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "What is the entitlement for annual leave after 6 years of service according to the company policy handbook?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g02",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "How many days of annual leave entitlement do I accrue after 3 years of service?",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-02 v3.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g03",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "What is the maximum number of unused leave days that can be carried forward, and what is the expiration policy for such days?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a75.3"
+          ]
+        },
+        {
+          "id": "g04",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the required notice period for availing a week of leave?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-02 v3.1 \u00a72.1",
+            "POL-02 v3.1 \u00a73.4"
+          ]
+        },
+        {
+          "id": "g05",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "How many days of medical leave am I entitled to if I am not hospitalized?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a73.1",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g06",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Do I require a medical certificate for sick leave if I am absent for two days?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a73.2",
+            "POL-02 v3.1 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g07",
+          "type": "version",
+          "set": "standard",
+          "rewrite": "What is the duration of parental leave for male employees?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "g08",
+          "type": "silent-explicit",
+          "set": "standard",
+          "rewrite": "Am I eligible to apply for a sabbatical leave?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a75.4",
+            "POL-02 v3.1 \u00a73.3",
+            "POL-02 v3.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g09",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the maximum number of days per week authorized for work from home?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g10",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "How many days per year are permitted for work from another country?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g11",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Will I be compensated with cash for approved overtime hours?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a71.3",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g12",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What are the defined core work hours under the company's schedule policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a71.2",
+            "POL-03 v1.4 \u00a71.1",
+            "POL-03 v1.4 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g13",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is there a policy allowance for the setup of a home office workspace?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a74.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g14",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "Who is required to approve an expense claim exceeding RM 5,000?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g15",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the time limit for submitting an expense claim according to company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a71.2",
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g16",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "May I submit a claim for the alcohol purchased during a client dinner?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a73.2",
+            "POL-04 v2.2 \u00a73.1",
+            "POL-04 v2.2 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g17",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the reimbursement rate for business use of personal vehicle as specified in the company policy handbook?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a74.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g18",
+          "type": "silent-explicit",
+          "set": "standard",
+          "rewrite": "Is reimbursement for payment to a vendor in cryptocurrency permissible under company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a75.3",
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g19",
+          "type": "conflict",
+          "set": "standard",
+          "rewrite": "What is the daily meal allowance rate during a domestic business trip?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a73.2",
+            "POL-05 v1.3 \u00a73.1",
+            "POL-04 v2.2 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g20",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is it permissible to utilize business class airfare for a 9-hour flight under the company's travel policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a72.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "g21",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "What is the maximum allowable accommodation expense per night in a Tier 2 city?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a72.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g22",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Who must approve a business trip outside the country?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a71.3",
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g23",
+          "type": "table",
+          "set": "standard",
+          "rewrite": "What are the procedures for handling gifts from suppliers valued at RM 350 according to company policy?",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g24",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is it permissible to retain a gift with a value of RM 600 from a client?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-08 v1.2 \u00a72.3",
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g25",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is it permissible to provide a gift to a government official according to the company's ethics policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-08 v1.2 \u00a73.2",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g26",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the minimum character count for passwords?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a71.1",
+            "POL-06 v3.0 \u00a71.3",
+            "POL-06 v3.0 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g27",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "How quickly must I report the theft of my laptop according to company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g28",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is it permissible to input customer data into a public AI chatbot?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a73.3",
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a71.3"
+          ]
+        },
+        {
+          "id": "g29",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is it permissible to store work-related files in a personal Dropbox account?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a73.2",
+            "POL-06 v3.0 \u00a72.1",
+            "POL-06 v3.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g30",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the required timeframe for reporting a personal data breach according to company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a72.1",
+            "POL-06 v3.0 \u00a72.4",
+            "POL-07 v2.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g31",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the company's policy regarding the retention period for employee records following termination of employment?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a73.1",
+            "POL-07 v2.1 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g32",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the company's timeframe for responding to a request for access to personal data?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a74.2",
+            "POL-07 v2.1 \u00a74.1",
+            "POL-07 v2.1 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g33",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "What is the frequency of fire drills as per company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.3",
+            "POL-13 v1.1 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g34",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Who should I notify and by what date regarding a work-related injury?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a71.1",
+            "POL-02 v3.1 \u00a73.4",
+            "POL-13 v1.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "g35",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Is anonymous reporting available for harassment incidents?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-14 v1.0 \u00a71.2",
+            "POL-14 v1.0 \u00a71.1",
+            "POL-14 v1.0 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g36",
+          "type": "factual",
+          "set": "standard",
+          "rewrite": "Do I require authorization for engaging in additional employment?",
+          "answerable": true,
+          "rank": 3,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03200204813108039,
+          "top": [
+            "POL-02 v3.1 \u00a72.2",
+            "POL-05 v1.3 \u00a72.4",
+            "POL-01 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g37",
+          "type": "conflict",
+          "set": "standard",
+          "rewrite": "In the event of a conflict between two company policies, which policy takes precedence?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-01 v2.0 \u00a76.1",
+            "POL-01 v2.0 \u00a76.2",
+            "POL-01 v2.0 \u00a76.3"
+          ]
+        },
+        {
+          "id": "g38",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "What is the required number of quotations for a RM 20,000 purchase under the company's procurement policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-12 v1.6 \u00a71.2",
+            "POL-12 v1.6 \u00a71.1",
+            "POL-12 v1.6 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g39",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "What is the target bonus percentage for a Grade 5 employee according to the company's compensation policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-10 v2.0 \u00a72.1",
+            "POL-10 v2.0 \u00a72.2",
+            "POL-09 v1.5 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g40",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "What is the notice period after confirmation for an employee at Grade 7 level?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-11 v2.0 \u00a73.3",
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2"
+          ]
+        },
+        {
+          "id": "g41",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "What are the requirements for promoting an employee according to company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-09 v1.5 \u00a73.1",
+            "POL-09 v1.5 \u00a73.2",
+            "POL-09 v1.5 \u00a73.3"
+          ]
+        },
+        {
+          "id": "g42",
+          "type": "restricted-ok",
+          "set": "standard",
+          "rewrite": "Is an employee on a performance improvement plan eligible for the bonus?",
+          "answerable": true,
+          "rank": 2,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-10 v2.0 \u00a72.4",
+            "POL-09 v1.5 \u00a74.3",
+            "POL-09 v1.5 \u00a74.1"
+          ]
+        },
+        {
+          "id": "g43",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "What bonus percentage is entitled to a Grade 5 employee?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.032018442622950824,
+          "top": [
+            "POL-02 v3.1 \u00a71.2",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a72.2"
+          ]
+        },
+        {
+          "id": "g44",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "What is the notice period after confirmation for an employee at Grade 7 level?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-07 v2.1 \u00a73.3",
+            "POL-07 v2.1 \u00a73.2",
+            "POL-07 v2.1 \u00a74.2"
+          ]
+        },
+        {
+          "id": "g45",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "How many quotations are required for a RM 20,000 purchase?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a72.1",
+            "POL-04 v2.2 \u00a72.2",
+            "POL-04 v2.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "g46",
+          "type": "restricted-blocked",
+          "set": "standard",
+          "rewrite": "What criteria and procedures must managers follow to initiate a promotion?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a71.1",
+            "POL-05 v1.3 \u00a71.3",
+            "POL-04 v2.2 Approval matrix"
+          ]
+        },
+        {
+          "id": "g47",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "Is it permissible to bring a service or companion animal to the workplace according to company policy?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03177805800756621,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-03 v1.4 \u00a73.3",
+            "POL-01 v2.0 \u00a72.1"
+          ]
+        },
+        {
+          "id": "g48",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "Is dental coverage provided under the company's benefits plan?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a74.1",
+            "POL-07 v2.1 \u00a74.2",
+            "POL-04 v2.2 \u00a74.3"
+          ]
+        },
+        {
+          "id": "g49",
+          "type": "silent",
+          "set": "standard",
+          "rewrite": "Is the company policy handbook inclusive of stock option provisions?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.032266458495966696,
+          "top": [
+            "POL-06 v3.0 \u00a72.1",
+            "POL-05 v1.3 \u00a74.1",
+            "POL-01 v2.0 \u00a73.1"
+          ]
+        },
+        {
+          "id": "g50",
+          "type": "out-of-domain",
+          "set": "standard",
+          "rewrite": "What is the official capital city as defined by company policy?",
+          "answerable": false,
+          "rank": null,
+          "cover5": null,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-05 v1.3 \u00a74.3",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "s01",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "is it permissible to work from home full-time?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03125,
+          "top": [
+            "POL-03 v1.4 \u00a72.2",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a72.1"
+          ]
+        },
+        {
+          "id": "s02",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "how many medical certificate days are eligible for accrual in a calendar year",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03225806451612903,
+          "top": [
+            "POL-02 v3.1 \u00a73.2",
+            "POL-03 v1.4 \u00a73.1",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s03",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "Is it permissible to expense alcohol with a client?",
+          "answerable": true,
+          "rank": 6,
+          "cover5": 0.0,
+          "violations": [],
+          "top_score": 0.031754032258064516,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-05 v1.3 \u00a72.4"
+          ]
+        },
+        {
+          "id": "s04",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "a vendor sent me a gift worth approximately 400 dollars",
+          "answerable": true,
+          "rank": 4,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-08 v1.2 \u00a72.1",
+            "POL-08 v1.2 \u00a73.1",
+            "POL-08 v1.2 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s05",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "I have lost my work-issued mobile device. What are the procedures for reporting this?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-06 v3.0 \u00a72.4",
+            "POL-06 v3.0 \u00a72.2",
+            "POL-13 v1.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s06",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "is it permissible to work from home in Bali for a month",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-03 v1.4 \u00a73.1",
+            "POL-03 v1.4 \u00a73.2",
+            "POL-03 v1.4 \u00a74.2"
+          ]
+        },
+        {
+          "id": "s07",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "what is the timeline for reimbursement following the submission of a claim",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a71.4",
+            "POL-04 v2.2 \u00a71.2",
+            "POL-08 v1.2 \u00a72.2"
+          ]
+        },
+        {
+          "id": "s08",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "how long can an employee be absent under the company policy for a spouse's maternity leave",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1",
+            "POL-02 v3.1 \u00a75.2"
+          ]
+        },
+        {
+          "id": "s09",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "What are the steps to follow in the event of email compromise according to company policy?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 0.5,
+          "violations": [],
+          "top_score": 0.03252247488101534,
+          "top": [
+            "POL-06 v3.0 \u00a75.1",
+            "POL-06 v3.0 \u00a72.2",
+            "POL-06 v3.0 \u00a73.2"
+          ]
+        },
+        {
+          "id": "s10",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "are tobacco products permitted in the workplace",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a73.3",
+            "POL-01 v2.0 \u00a72.1",
+            "POL-03 v1.4 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s11",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "what is the maximum amount allowable for entertaining a client at a dining establishment?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-04 v2.2 \u00a73.1",
+            "POL-05 v1.3 Travel allowance schedule",
+            "POL-08 v1.2 \u00a73.1"
+          ]
+        },
+        {
+          "id": "s12",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "how do i report an incident of bullying according to the company policy on harassment and bullying?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-14 v1.0 \u00a71.1",
+            "POL-01 v2.0 \u00a72.1",
+            "POL-13 v1.1 \u00a71.1"
+          ]
+        },
+        {
+          "id": "s13",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "What are the consequences if annual leave is not utilized by the end of the fiscal year?",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a71.5",
+            "POL-02 v3.1 \u00a71.4",
+            "POL-02 v3.1 \u00a71.2"
+          ]
+        },
+        {
+          "id": "s14",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "how many leave days are entitled upon getting married",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-02 v3.1 \u00a75.2",
+            "POL-02 v3.1 \u00a74.2",
+            "POL-02 v3.1 \u00a74.1"
+          ]
+        },
+        {
+          "id": "s15",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "seek approval for travel on premium economy class to Singapore",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-05 v1.3 \u00a72.2",
+            "POL-05 v1.3 \u00a74.3",
+            "POL-05 v1.3 \u00a72.3"
+          ]
+        },
+        {
+          "id": "s16",
+          "type": "stress",
+          "set": "stress",
+          "rewrite": "are employees required to participate in fire drills",
+          "answerable": true,
+          "rank": 1,
+          "cover5": 1.0,
+          "violations": [],
+          "top_score": 0.03278688524590164,
+          "top": [
+            "POL-13 v1.1 \u00a72.1",
+            "POL-01 v2.0 \u00a73.1",
+            "POL-13 v1.1 \u00a72.2"
+          ]
+        }
+      ]
+    }
+  }
+}
