@@ -44,7 +44,7 @@ def retriever():
     return Retriever(index, FakeEmbedder(), FakeReranker())
 
 
-@pytest.fixture(scope="module", params=["golden_policy.json", "golden_holdout.json"])
+@pytest.fixture(scope="module", params=["golden_policy.json", "golden_holdout.json", "golden_final.json"])
 def golden(request):
     return json.loads((ROOT / "eval" / request.param).read_text(encoding="utf-8"))["questions"]
 
@@ -143,7 +143,7 @@ def test_every_mode_returns_results(retriever, mode):
 
 def test_question_files_are_well_formed():
     seen = set()
-    for name in ("golden_policy.json", "golden_holdout.json"):
+    for name in ("golden_policy.json", "golden_holdout.json", "golden_final.json"):
         for q in json.loads((ROOT / "eval" / name).read_text(encoding="utf-8"))["questions"]:
             assert q["id"] not in seen, f"duplicate id {q['id']}"
             seen.add(q["id"])
@@ -153,3 +153,10 @@ def test_question_files_are_well_formed():
     holdout = json.loads((ROOT / "eval" / "golden_holdout.json").read_text(encoding="utf-8"))["questions"]
     tuned = {q["question"].lower() for q in json.loads((ROOT / "eval" / "golden_policy.json").read_text(encoding="utf-8"))["questions"]}
     assert not any(q["question"].lower() in tuned for q in holdout), "held-out questions must differ from the tuned set"
+
+
+def test_final_set_does_not_overlap_the_earlier_sets():
+    def load(name):
+        return json.loads((ROOT / "eval" / name).read_text(encoding="utf-8"))["questions"]
+    earlier = {q["question"].lower() for name in ("golden_policy.json", "golden_holdout.json") for q in load(name)}
+    assert not any(q["question"].lower() in earlier for q in load("golden_final.json"))
