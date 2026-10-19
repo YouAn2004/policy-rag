@@ -310,3 +310,18 @@ def test_an_answer_that_says_the_policy_is_silent_becomes_a_refusal(retriever, r
     r = bot(retriever, llm).ask("How many days of annual leave do I get?", "employee")
     assert r.status == "refused" and "@meridianworks.example" in r.text
     assert [c[0] for c in llm.calls] == ["judge", "answer"]
+
+
+def test_progress_callback_reports_the_stages_in_order(retriever):
+    seen = []
+    llm = ScriptedLLM(judge=OK_JUDGE, support=OK_SUPPORT, answer="You get 16 days [POL-02 §1.1].")
+    r = bot(retriever, llm, rewrite=False).ask("How many days of annual leave do I get?", "employee", progress=seen.append)
+    assert r.status == "answered"
+    assert seen == ["search", "judge", "answer", "verify"]
+
+
+def test_progress_callback_stops_at_judge_for_a_refusal(retriever):
+    seen = []
+    llm = ScriptedLLM(judge='{"clause": "none", "reason": "nothing"}')
+    bot(retriever, llm).ask("Can I bring my dog to the office?", "employee", progress=seen.append)
+    assert seen == ["search", "judge"]

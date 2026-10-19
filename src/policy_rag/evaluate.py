@@ -95,7 +95,6 @@ def main():
     a = ap.parse_args()
 
     from policy_rag.cli_search import load_retriever
-    from policy_rag.retrieve import Retriever
 
     rewriter = None
     if any(m.endswith("_rewrite") for m in a.modes):

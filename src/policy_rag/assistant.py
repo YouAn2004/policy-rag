@@ -13,7 +13,7 @@ from .judge import find_clause
 from .llm import parse_json
 from .rewrite import rewrite_query
 from .thresholds import threshold_hints
-from .verify import extract_citations, problems, says_silent, verify_structure
+from .verify import problems, says_silent, verify_structure
 
 ABSTAIN = re.compile(r"^\W*not[_ ]in[_ ]policy", re.I)
 
@@ -85,16 +85,20 @@ class PolicyAssistant:
         return Answer("refused", text, question, role, rewritten, [], {}, [h.chunk.citation for h in hits],
                       refusal_reason=reason, contact=who, timings=timings)
 
-    def ask(self, question, role="employee", as_of=None, judge_only=False):
+    def ask(self, question, role="employee", as_of=None, judge_only=False, progress=None):
+        """progress, when given, is called with each stage name as it starts (rewrite, search, judge, answer, verify)."""
+        emit = progress or (lambda stage: None)
         t0 = time.perf_counter()
         timings = {}
         queries, rewritten = [question], ""
         if self.use_rewrite:
+            emit("rewrite")
             rewritten = rewrite_query(self.llm, question)
             if rewritten.strip().lower() != question.strip().lower():
                 queries.append(rewritten)
         timings["rewrite"] = time.perf_counter() - t0
 
+        emit("search")
         t = time.perf_counter()
         if len(queries) > 1:
             hits = self.retriever.search_multi(queries, role, config.CONTEXT_HITS, self.mode, as_of)
@@ -108,6 +112,7 @@ class PolicyAssistant:
         checks = (threshold_hints(question, [(c.cite_key, c.text) for c in available.values()])
                   if config.THRESHOLD_HINTS else "")
 
+        emit("judge")
         t = time.perf_counter()
         verdict = find_clause(self.llm, question, context, available, checks)
         timings["judge"] = time.perf_counter() - t
@@ -118,6 +123,7 @@ class PolicyAssistant:
             return Answer("answered", "(judge only)", question, role, rewritten, [], {}, [h.chunk.citation for h in hits],
                           refusal_reason=verdict.reason, timings=timings, checks=checks)
 
+        emit("answer")
         t = time.perf_counter()
         feedback, text, v, support, cited = "", "", {}, None, []
         for attempt in range(config.MAX_RETRIES + 1):
@@ -128,6 +134,7 @@ class PolicyAssistant:
                 timings["answer"] = time.perf_counter() - t
                 return self._refuse(question, role, "the clauses shown do not contain a rule for this question",
                                     hits, rewritten, timings, t0)
+            emit("verify")
             v = verify_structure(text, set(available), context, question)
             feedback = problems(v)
             cited = [available[c.lower()] for c in v["cited"] if c.lower() in available]
