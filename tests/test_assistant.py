@@ -299,3 +299,14 @@ def test_prompts_without_checks_are_unchanged():
     assert "Checked facts" not in prompts.answer_user("q", "ctx")
     assert "Checked facts" not in prompts.judge_user("q", "ctx")
     assert "Checked facts" in prompts.support_user("a", "ctx", "q", "- [POL-01 §1.1] x")
+
+
+@pytest.mark.parametrize("reply", [
+    "The policy does not specify different office hours during Ramadan [POL-02 §1.1].",
+    "No office hours during Ramadan are specified in the provided policies [POL-02 §1.1].",
+])
+def test_an_answer_that_says_the_policy_is_silent_becomes_a_refusal(retriever, reply):
+    llm = ScriptedLLM(judge=OK_JUDGE, answer=reply)
+    r = bot(retriever, llm).ask("How many days of annual leave do I get?", "employee")
+    assert r.status == "refused" and "@meridianworks.example" in r.text
+    assert [c[0] for c in llm.calls] == ["judge", "answer"]

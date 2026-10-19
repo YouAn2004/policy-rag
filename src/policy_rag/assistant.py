@@ -13,7 +13,7 @@ from .judge import find_clause
 from .llm import parse_json
 from .rewrite import rewrite_query
 from .thresholds import threshold_hints
-from .verify import extract_citations, problems, verify_structure
+from .verify import extract_citations, problems, says_silent, verify_structure
 
 ABSTAIN = re.compile(r"^\W*not[_ ]in[_ ]policy", re.I)
 
@@ -124,7 +124,7 @@ class PolicyAssistant:
             last = attempt == config.MAX_RETRIES
             text = self.llm.complete(prompts.answer_user(question, context, feedback, checks), system=prompts.ANSWER_SYSTEM,
                                      purpose="answer")
-            if ABSTAIN.match(text):  # the answer step found that no clause covers the question
+            if ABSTAIN.match(text) or says_silent(text):  # no clause covers the question
                 timings["answer"] = time.perf_counter() - t
                 return self._refuse(question, role, "the clauses shown do not contain a rule for this question",
                                     hits, rewritten, timings, t0)

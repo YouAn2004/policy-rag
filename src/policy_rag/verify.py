@@ -9,6 +9,14 @@ LIST_MARKER = re.compile(r"^\s*\d+[.)]\s+", re.M)
 NUMBER = re.compile(r"\d+(?:[.,]\d+)*")
 NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9,
                 "ten": 10, "eleven": 11, "twelve": 12, "fifteen": 15, "twenty": 20, "thirty": 30}
+SILENT = re.compile(
+    r"\bnot\s+(?:explicitly\s+)?(?:specified|mentioned|addressed|stated|covered)\b"
+    r"|\b(?:does|do|did)\s+not\s+(?:specify|mention|address|contain|cover|say|state|include|define)\b"
+    r"|\bno\b[^.\n]{0,40}\b(?:is|are)\s+(?:specified|mentioned|stated|provided)\b"
+    r"|\bno\s+(?:information|details?|mention|rules?|clauses?|provisions?|guidance|polic(?:y|ies))\b"
+    r"[^.\n]{0,60}\b(?:specif|provid|mention|found|address|cover|state|available)"
+    r"|,\s*not\s+for\s+\w+ing\b",
+    re.I)
 WORD_NUMBER = re.compile(r"\b(" + "|".join(NUMBER_WORDS) + r")\b", re.I)
 
 
@@ -24,6 +32,11 @@ def extract_citations(text):
         if key not in out:
             out.append(key)
     return out
+
+
+def says_silent(answer):
+    """True when the answer says the policy is silent on the question, instead of giving a rule."""
+    return bool(SILENT.search(answer))
 
 
 def norm_number(s):
