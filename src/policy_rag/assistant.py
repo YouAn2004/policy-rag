@@ -1,6 +1,6 @@
 """The full question answering pipeline.
 
-question -> rewrite -> filtered retrieval -> answerability check -> grounded answer
+question -> input guard -> rewrite -> filtered retrieval -> answerability check -> grounded answer
          -> citation and number checks (one retry) -> support check -> result
 """
 
@@ -8,7 +8,7 @@ import re
 import time
 from dataclasses import asdict, dataclass, field
 
-from . import config, prompts
+from . import config, guard, prompts
 from .judge import find_clause
 from .llm import parse_json
 from .rewrite import rewrite_query
@@ -85,10 +85,17 @@ class PolicyAssistant:
         return Answer("refused", text, question, role, rewritten, [], {}, [h.chunk.citation for h in hits],
                       refusal_reason=reason, contact=who, timings=timings)
 
+    def _blocked(self, question, role, kind, started):
+        reason = f"the message reads as an instruction to the assistant ({kind})"
+        return Answer("refused", guard.MESSAGE, question, role, refusal_reason=reason,
+                      timings={"total": time.perf_counter() - started})
+
     def ask(self, question, role="employee", as_of=None, judge_only=False, progress=None):
         """progress, when given, is called with each stage name as it starts (rewrite, search, judge, answer, verify)."""
         emit = progress or (lambda stage: None)
         t0 = time.perf_counter()
+        if config.INPUT_GUARD and (kind := guard.check(question)):
+            return self._blocked(question, role, kind, t0)
         timings = {}
         queries, rewritten = [question], ""
         if self.use_rewrite:

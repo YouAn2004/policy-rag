@@ -28,6 +28,7 @@ THRESHOLD_HINTS = True  # code compares the employee's figures with clause thres
 CONTEXT_HITS = 5  # retrieved clauses used to pick sections for the prompt
 MAX_SECTIONS = 4  # at most this many policy sections go into the prompt
 MAX_RETRIES = 1  # one regeneration if the answer fails the structural checks
+INPUT_GUARD = True  # refuse messages that instruct the assistant, before any search or model call
 
 # Who to point people to when the handbook cannot answer. Matched against the policy owner.
 CONTACTS = {
